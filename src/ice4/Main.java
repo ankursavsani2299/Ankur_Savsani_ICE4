@@ -14,7 +14,7 @@ public class Main {
         TestMethodes ob1 = new TestMethodes();
         
         ob1.CharOucc("AnkurSavsani", 'a');
-        ob1.BigChar('a');
+        ob1.MaxChar("AnkuSav");
         ob1.CharExists("Savsani", 'a');
         ob1.CharExists("Ankur", 'z'); 
     }

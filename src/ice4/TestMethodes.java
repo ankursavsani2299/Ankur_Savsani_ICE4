@@ -19,10 +19,14 @@ public class TestMethodes {
         } 
          System.out.println("Count is :" +count);
     }
-    char chr;
-    public void BigChar(char chr){
-        int val = chr;
-        System.out.print("Value is :" +val);
+    String string;
+    public void MaxChar(String string){
+        char max = 'A';
+        for(int i =0; i<string.length(); i++){
+            if(string.charAt(i) > max)
+                   max = string.charAt(i);
+        }
+        System.out.print("Max Char is :" +max);
     }
     
     String str1;
